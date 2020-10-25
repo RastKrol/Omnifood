@@ -55,7 +55,9 @@
     height: 75px;
     margin-top: 10px;
   }
-
+   header {
+   background-image: url(img/hero.jpg); 
+  }
   .row,
   .hero-text-box {padding: 0 4%;}
   .col {
