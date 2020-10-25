@@ -193,8 +193,9 @@ input[type=submit]:active {
 /* ------------------------------------------- */
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: -webkit-gradient(linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))),
     url(img/hero.jpg);
+    background-image: url(img/hero.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
